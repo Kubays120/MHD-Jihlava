@@ -17,10 +17,10 @@ Jedná se o open-source projekt, jehož cílem je nabídnout obyvatelům i náv�
 
 ## ⚠️ Důležité upozornění
 Tato aplikace **není distribuována přes App Store**.  
-Je nutné ji nahrát do telefonu ručně pomocí **Xcode**.  
+Je nutné ji nahrát do telefonu ručně pomocí **Xcode nebo .ipa instalátoru**.  
 
 👉 Po nahrání do zařízení aplikace **funguje pouze 7 dní** (limit Apple vývojářských profilů bez placeného developer účtu).  
-Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu.
+Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nainstalovat .ipa pomocí nástoje.
 
 ---
 
@@ -34,7 +34,7 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu.
 5. Klikni na ▶️ Run pro nahrání aplikace do telefonu
 6. Hotovo!
 
-## 🚀 Instalace pomocí IPA
+## 🚀 Instalace pomocí IPA instalátoru
 1. Stáhni repozitář:  
    ```bash
    git clone https://github.com/Kubays120/MHD-Jihlava.git
