@@ -48,7 +48,9 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 5. Klikni na ▶️ Run pro nahrání aplikace do telefonu
 6. Hotovo!
 
-🛠️ Použité technologie
+---
+
+## 🛠️ Použité technologie
  - Swift / SwiftUI
  - Xcode
  - iOS SDK
