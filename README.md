@@ -38,7 +38,7 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 1. Stáhni repozitář (nebo můžeš rovnou stáhnout .ipa v Releases):  
    ```bash
    git clone https://github.com/Kubays120/MHD-Jihlava.git
-2. Stáhni Sideloadly
+2. Stáhni Sideloadly (odkaz vlož do nového okna v prohlížeči)
    ```bash
    https://sideloadly.io/#download
 3. Otevři Sideloadly
