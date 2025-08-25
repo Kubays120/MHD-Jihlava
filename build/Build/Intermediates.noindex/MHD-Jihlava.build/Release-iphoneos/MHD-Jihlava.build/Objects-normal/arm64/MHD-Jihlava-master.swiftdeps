@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+options: "8da83981a6e311a44619bdc18c087528e360c9bce6d2cb51b0be372c8b8f0f6f"
+build_start_time: [1747763877, 296897000]
+build_end_time: [1747763897, 745869000]
+inputs:
+  "/Users/kuba/Documents/Xcode/MHD-Jihlava/MHD-Jihlava/ContentView.swift": [1747398221, 143833535]
+  "/Users/kuba/Documents/Xcode/MHD-Jihlava/MHD-Jihlava/MHD_JihlavaApp.swift": [1746628245, 533604599]
+  ? "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1747763877, 189079415]

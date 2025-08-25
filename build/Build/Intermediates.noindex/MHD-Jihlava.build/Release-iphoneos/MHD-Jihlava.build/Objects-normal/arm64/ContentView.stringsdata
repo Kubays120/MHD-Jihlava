@@ -1,0 +1,128 @@
+{
+  "source": "/Users/kuba/Documents/Xcode/MHD-Jihlava/MHD-Jihlava/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Jízdní řády MHD Jihlava"
+      },
+      {
+        "comment": "",
+        "key": "Mapa spojů"
+      },
+      {
+        "comment": "",
+        "key": "Jízdní řád linky B"
+      },
+      {
+        "comment": "",
+        "key": "Jízdní řád linky C"
+      },
+      {
+        "comment": "",
+        "key": "Jízdní řád linky G"
+      },
+      {
+        "comment": "",
+        "key": "Jízdní řád linky 12"
+      },
+      {
+        "comment": "",
+        "key": "Linka B"
+      },
+      {
+        "comment": "",
+        "key": "Směr: Náměstí"
+      },
+      {
+        "comment": "",
+        "key": "Směr: Na Helenínské"
+      },
+      {
+        "comment": "",
+        "key": "Zastávka: Na Helenínské"
+      },
+      {
+        "comment": "",
+        "key": "Zastávka: Náměstí dolní"
+      },
+      {
+        "comment": "",
+        "key": "Na Helenínské"
+      },
+      {
+        "comment": "",
+        "key": "Masarykovo náměstí dolní"
+      },
+      {
+        "comment": "",
+        "key": "Linka C"
+      },
+      {
+        "comment": "",
+        "key": "AKTUÁLNĚ (9. 5. 25): Linka C nyní v dobách oprav končí na zastávce Chlumova a zastávku Kaufland neobsluhuje"
+      },
+      {
+        "comment": "",
+        "key": "Směr: Chlumova"
+      },
+      {
+        "comment": "",
+        "key": "Linka G"
+      },
+      {
+        "comment": "",
+        "key": "Směr: Antonínův Důl"
+      },
+      {
+        "comment": "",
+        "key": "Směr: Náměstí dolní"
+      },
+      {
+        "comment": "",
+        "key": "Zastávka: Chlumova"
+      },
+      {
+        "comment": "",
+        "key": "Zastávka: Kaufland"
+      },
+      {
+        "comment": "",
+        "key": "Zastávka: Překladiště Pávov"
+      },
+      {
+        "comment": "",
+        "key": "Zastávka: Antonínův Důl"
+      },
+      {
+        "comment": "",
+        "key": "Zastávka: Červený kříž"
+      },
+      {
+        "comment": "",
+        "key": "Chlumova"
+      },
+      {
+        "comment": "",
+        "key": "Kaufland"
+      },
+      {
+        "comment": "",
+        "key": "Překladiště Pávov"
+      },
+      {
+        "comment": "",
+        "key": "Antonínův Důl"
+      },
+      {
+        "comment": "",
+        "key": "Červený Kříž"
+      },
+      {
+        "comment": "",
+        "key": "Linka 12"
+      }
+    ]
+  },
+  "version": 1
+}

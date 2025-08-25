@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD-Jihlava-master.swiftconstvalues",
+    "dependencies" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD-Jihlava-master.d",
+    "diagnostics" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD-Jihlava-master.dia",
+    "emit-module-dependencies" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD-Jihlava-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD-Jihlava-master-emit-module.dia",
+    "swift-dependencies" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD-Jihlava-master.swiftdeps"
+  },
+  "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/kuba/Documents/Xcode/MHD-Jihlava/MHD-Jihlava/ContentView.swift" : {
+    "index-unit-output-path" : "/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/kuba/Documents/Xcode/MHD-Jihlava/MHD-Jihlava/MHD_JihlavaApp.swift" : {
+    "index-unit-output-path" : "/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD_JihlavaApp.o",
+    "llvm-bc" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD_JihlavaApp.bc",
+    "object" : "/Users/kuba/Documents/Xcode/MHD-Jihlava/build/Build/Intermediates.noindex/MHD-Jihlava.build/Release-iphoneos/MHD-Jihlava.build/Objects-normal/arm64/MHD_JihlavaApp.o"
+  }
+}
