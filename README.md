@@ -24,16 +24,6 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 
 ---
 
-## 🚀 Instalace pomocí Xcode
-1. Stáhni repozitář:  
-   ```bash
-   git clone https://github.com/Kubays120/MHD-Jihlava.git
-2. Otevři složku projektu v Xcode (.xcodeproj nebo .xcworkspace)
-3. Připoj iPhone k počítači
-4. Vyber své zařízení jako build target
-5. Klikni na ▶️ Run pro nahrání aplikace do telefonu
-6. Hotovo!
-
 ## 🚀 Instalace pomocí IPA instalátoru
 1. Stáhni repozitář (nebo můžeš rovnou stáhnout .ipa v Releases):  
    ```bash
@@ -47,6 +37,16 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 6. Klikni na Start
 7. Zadej heslo ke svému Apple ID
 8. Hotovo!
+
+## 🚀 Instalace pomocí Xcode
+1. Stáhni repozitář:  
+   ```bash
+   git clone https://github.com/Kubays120/MHD-Jihlava.git
+2. Otevři složku projektu v Xcode (.xcodeproj nebo .xcworkspace)
+3. Připoj iPhone k počítači
+4. Vyber své zařízení jako build target
+5. Klikni na ▶️ Run pro nahrání aplikace do telefonu
+6. Hotovo!
 
 🛠️ Použité technologie
  - Swift / SwiftUI
