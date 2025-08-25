@@ -35,7 +35,7 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 6. Hotovo!
 
 ## 🚀 Instalace pomocí IPA instalátoru
-1. Stáhni repozitář:  
+1. Stáhni repozitář (nebo můžeš rovnou stáhnout .ipa v Releases):  
    ```bash
    git clone https://github.com/Kubays120/MHD-Jihlava.git
 2. Stáhni Sideloadly
