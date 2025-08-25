@@ -55,4 +55,5 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
  - Xcode
  - iOS SDK
  - MapKit pro práci s mapou
+ - LocationWebView pro získání polohy
  - Open-source data o MHD
