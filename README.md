@@ -60,6 +60,6 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 
 ---
 
-## Poznámka
+## Poznámky
 V aplikaci jsou jízdní řády pouze pro zastávky které potřebuji.
  - Pokud by jste chtěli nějaké jízdní řády přidat, napište mi na **E-Mail: ytb-kuba@seznam.cz** 
