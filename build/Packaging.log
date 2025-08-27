@@ -1,0 +1,121 @@
+2025-08-27 10:29:39 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fad0c8e2920; archive(resolved)="<IDEArchive: 0x600001488fc0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team(resolved)="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fad0c8e2920; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionProcessingPipelineContext: 0x7fad0c8de470; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionContext: 0x7fad0c8f06c0; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionContext: 0x7fad0e029b90; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionContext: 0x7fad0c8cd150; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionContext: 0x7fad0e0287f0; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionContext: 0x7fad0c8cc5a0; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionContext: 0x7fad0e028290; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionContext: 0x7fad0e027090; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="<IDEProvisioningBasicTeam: 0x6000031c8f80; teamID='Z87L6663Q4', teamName='Jakub Světlák'>">
+	<IDEDistributionContext: 0x7fad0e026940; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="(null)">
+	<IDEDistributionContext: 0x7fad0c8cbf70; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="(null)">
+	<IDEDistributionContext: 0x7fad0e026460; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="(null)">
+	<IDEDistributionContext: 0x7fad0e022ce0; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600003211f20>", team="(null)">
+	<IDEDistributionContext: 0x7fad0e01aa40; archive = "<IDEArchive: 0x600001488fc0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7fad0c8e2920>
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-08-27 10:29:39 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/kuba/Documents/Xcode_Projects/MHD-Jihlava/build/MHD-Jihlava.xcarchive/Products/Applications/MHD-Jihlava.app' '/var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root/Payload/MHD-Jihlava.app'
+2025-08-27 10:29:39 +0000  >>> Copying /Users/kuba/Documents/Xcode_Projects/MHD-Jihlava/build/MHD-Jihlava.xcarchive/Products/Applications/MHD-Jihlava.app 
+2025-08-27 10:29:39 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-08-27 10:29:39 +0000  2541 bytes for ./_CodeSignature/CodeResources
+2025-08-27 10:29:39 +0000  copying file ./AppIcon60x60@2x.png ... 
+2025-08-27 10:29:39 +0000  27407 bytes for ./AppIcon60x60@2x.png
+2025-08-27 10:29:39 +0000  copying file ./Assets.car ... 
+2025-08-27 10:29:39 +0000  9211359 bytes for ./Assets.car
+2025-08-27 10:29:39 +0000  copying file ./MHD-Jihlava ... 
+2025-08-27 10:29:39 +0000  192784 bytes for ./MHD-Jihlava
+copying file ./embedded.mobileprovision ... 
+2025-08-27 10:29:39 +0000  16346 bytes for ./embedded.mobileprovision
+2025-08-27 10:29:39 +0000  copying file ./Info.plist ... 
+2025-08-27 10:29:39 +0000  1571 bytes for ./Info.plist
+2025-08-27 10:29:39 +0000  copying file ./PkgInfo ... 
+2025-08-27 10:29:39 +0000  8 bytes for ./PkgInfo
+2025-08-27 10:29:39 +0000 [MT] /usr/bin/ditto exited with 0
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-08-27 10:29:39 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-08-27 10:29:39 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2025-08-27 10:29:39 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2025-08-27 10:29:39 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-08-27 10:29:39 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-08-27 10:29:39 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-08-27 10:29:39 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root/Payload/MHD-Jihlava.app/MHD-Jihlava' '-verify_arch' 'arm64e'
+2025-08-27 10:29:39 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2025-08-27 10:29:39 +0000 [MT] Skipping architecture thinning for item "MHD-Jihlava" because arch "arm64e" wasn't found
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-08-27 10:29:39 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root/Payload/MHD-Jihlava.app'
+2025-08-27 10:29:39 +0000 [MT] /usr/bin/xattr exited with 0
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-08-27 10:29:39 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000014e6ac0; bundleID='kubatube.MHD-Jihlava', path='<DVTFilePath:0x600001bfcb60:'/Users/kuba/Documents/Xcode_Projects/MHD-Jihlava/build/MHD-Jihlava.xcarchive/Products/Applications/MHD-Jihlava.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000013bcaf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000050c240; name='Apple Development: jakub.svetlak@seznam.cz (HGH8Z2DR6B)', hash='79211B7C7A0CF74BA1600834EA863F56EB790C3A', serialNumber='4A23F6D01EB11E72A0E140AD93A02CBD', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-08-23 11:39:27 +0000''>', entitlements='{
+    "application-identifier" = "Z87L6663Q4.kubatube.MHD-Jihlava";
+    "com.apple.developer.team-identifier" = Z87L6663Q4;
+    "get-task-allow" = 1;
+}', teamID='Z87L6663Q4', identifier='kubatube.MHD-Jihlava', executablePath='<DVTFilePath:0x600001bfdab0:'/Users/kuba/Documents/Xcode_Projects/MHD-Jihlava/build/MHD-Jihlava.xcarchive/Products/Applications/MHD-Jihlava.app/MHD-Jihlava'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "Z87L6663Q4.kubatube.MHD-Jihlava";
+    "com.apple.developer.team-identifier" = Z87L6663Q4;
+    "get-task-allow" = 1;
+}
+2025-08-27 10:29:39 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-08-27 10:29:39 +0000 [MT] Entitlements for <IDEDistributionItem: 0x6000014e6ac0; bundleID='kubatube.MHD-Jihlava', path='<DVTFilePath:0x600001bfcb60:'/Users/kuba/Documents/Xcode_Projects/MHD-Jihlava/build/MHD-Jihlava.xcarchive/Products/Applications/MHD-Jihlava.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000013bcaf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000050c480; name='Apple Development: jakub.svetlak@seznam.cz (HGH8Z2DR6B)', hash='79211B7C7A0CF74BA1600834EA863F56EB790C3A', serialNumber='4A23F6D01EB11E72A0E140AD93A02CBD', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-08-23 11:39:27 +0000''>', entitlements='{
+    "application-identifier" = "Z87L6663Q4.kubatube.MHD-Jihlava";
+    "com.apple.developer.team-identifier" = Z87L6663Q4;
+    "get-task-allow" = 1;
+}', teamID='Z87L6663Q4', identifier='kubatube.MHD-Jihlava', executablePath='<DVTFilePath:0x600001bfdab0:'/Users/kuba/Documents/Xcode_Projects/MHD-Jihlava/build/MHD-Jihlava.xcarchive/Products/Applications/MHD-Jihlava.app/MHD-Jihlava'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "Z87L6663Q4.kubatube.MHD-Jihlava";
+    "com.apple.developer.team-identifier" = Z87L6663Q4;
+    "get-task-allow" = 1;
+}
+2025-08-27 10:29:39 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x6000014e6ac0; bundleID='kubatube.MHD-Jihlava', path='<DVTFilePath:0x600001bfcb60:'/Users/kuba/Documents/Xcode_Projects/MHD-Jihlava/build/MHD-Jihlava.xcarchive/Products/Applications/MHD-Jihlava.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000013bcaf0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000050c780; name='Apple Development: jakub.svetlak@seznam.cz (HGH8Z2DR6B)', hash='79211B7C7A0CF74BA1600834EA863F56EB790C3A', serialNumber='4A23F6D01EB11E72A0E140AD93A02CBD', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-08-23 11:39:27 +0000''>', entitlements='{
+    "application-identifier" = "Z87L6663Q4.kubatube.MHD-Jihlava";
+    "com.apple.developer.team-identifier" = Z87L6663Q4;
+    "get-task-allow" = 1;
+}', teamID='Z87L6663Q4', identifier='kubatube.MHD-Jihlava', executablePath='<DVTFilePath:0x600001bfdab0:'/Users/kuba/Documents/Xcode_Projects/MHD-Jihlava/build/MHD-Jihlava.xcarchive/Products/Applications/MHD-Jihlava.app/MHD-Jihlava'>', hardenedRuntime='0'>'> to: /var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/entitlements~~~DUFpsc
+2025-08-27 10:29:39 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '79211B7C7A0CF74BA1600834EA863F56EB790C3A' '--entitlements' '/var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/entitlements~~~DUFpsc' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root/Payload/MHD-Jihlava.app'
+2025-08-27 10:29:39 +0000  /var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root/Payload/MHD-Jihlava.app: replacing existing signature
+2025-08-27 10:29:39 +0000  /var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root/Payload/MHD-Jihlava.app: signed app bundle with Mach-O thin (arm64) [kubatube.MHD-Jihlava]
+2025-08-27 10:29:39 +0000 [MT] /usr/bin/codesign exited with 0
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-08-27 10:29:39 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-08-27 10:29:39 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-08-27 10:29:39 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root' '/var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Packages/MHD-Jihlava.ipa'
+2025-08-27 10:29:39 +0000  >>> Copying /var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root 
+2025-08-27 10:29:39 +0000  copying file ./Payload/MHD-Jihlava.app/_CodeSignature/CodeResources ... 
+2025-08-27 10:29:39 +0000  2541 bytes for ./Payload/MHD-Jihlava.app/_CodeSignature/CodeResources
+2025-08-27 10:29:39 +0000  copying file ./Payload/MHD-Jihlava.app/AppIcon60x60@2x.png ... 
+2025-08-27 10:29:39 +0000  27407 bytes for ./Payload/MHD-Jihlava.app/AppIcon60x60@2x.png
+2025-08-27 10:29:39 +0000  copying file ./Payload/MHD-Jihlava.app/Assets.car ... 
+2025-08-27 10:29:40 +0000  9211359 bytes for ./Payload/MHD-Jihlava.app/Assets.car
+2025-08-27 10:29:40 +0000  copying file ./Payload/MHD-Jihlava.app/MHD-Jihlava ... 
+2025-08-27 10:29:40 +0000  192784 bytes for ./Payload/MHD-Jihlava.app/MHD-Jihlava
+2025-08-27 10:29:40 +0000  copying file ./Payload/MHD-Jihlava.app/embedded.mobileprovision ... 
+2025-08-27 10:29:40 +0000  16346 bytes for ./Payload/MHD-Jihlava.app/embedded.mobileprovision
+2025-08-27 10:29:40 +0000  copying file ./Payload/MHD-Jihlava.app/Info.plist ... 
+2025-08-27 10:29:40 +0000  1571 bytes for ./Payload/MHD-Jihlava.app/Info.plist
+2025-08-27 10:29:40 +0000  copying file ./Payload/MHD-Jihlava.app/PkgInfo ... 
+2025-08-27 10:29:40 +0000  8 bytes for ./Payload/MHD-Jihlava.app/PkgInfo
+2025-08-27 10:29:40 +0000 [MT] /usr/bin/ditto exited with 0
+2025-08-27 10:29:40 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-08-27 10:29:40 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-08-27 10:29:40 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-08-27 10:29:40 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600001b88930:'/var/folders/8m/jjzpbskx1p50c8hvjcklmm5r0000gn/T/XcodeDistPipeline.~~~bBE9Pv/Root/Payload/MHD-Jihlava.app'>
+2025-08-27 10:29:40 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

@@ -90,13 +90,24 @@ struct ContentView: View {
                                 .background(.ultraThinMaterial)
                                 .cornerRadius(10)
                         }
+                        
+                        NavigationLink { LineH_View() } label: {
+                            Text("Jízdní řád linky H")
+                                .foregroundColor(.blue)
+                                .padding()
+                                .frame(width: 250)
+                                .background(.ultraThinMaterial)
+                                .cornerRadius(10)
+                        }
 
+                        Divider()
+                        
                         Text("Mapa spojů")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.primary)
                             .padding(.top)
-
+                        
                         NavigationLink { MapaSpoju_View() } label: {
                             Text("Mapa spojů")
                                 .foregroundColor(.blue)
@@ -227,9 +238,7 @@ struct LineC_View: View {
                 Text("Jízdní řád linky C")
                     .font(.title)
                     .padding(.bottom, 20)
-
-                Text("AKTUÁLNĚ (9. 5. 25): Linka C nyní v dobách oprav končí na zastávce Chlumova a zastávku Kaufland neobsluhuje")
-
+                
                 Divider()
 
                 Text("Směr: Náměstí")
@@ -262,12 +271,27 @@ struct LineC_View: View {
 
                 Divider()
 
-                Text("Směr: Chlumova")
+                Text("Směr: Kaufland")
                     .font(.title)
                     .padding(.bottom, 20)
 
                 NavigationLink { NaHeleninske2_View() } label: {
                     Text("Zastávka: Na Helenínské")
+                        .foregroundColor(.blue)
+                        .padding()
+                        .frame(width: 250)
+                        .background(.ultraThinMaterial)
+                        .cornerRadius(10)
+                }
+                
+                Divider()
+                
+                Text("Směr: Na Helenínské")
+                    .font(.title)
+                    .padding(.bottom, 20)
+
+                NavigationLink { Kaufland_View() } label: {
+                    Text("Zastávka: Kaufland")
                         .foregroundColor(.blue)
                         .padding()
                         .frame(width: 250)
@@ -331,7 +355,7 @@ struct NaHeleninske2_View: View {
 
     var body: some View {
         ScrollView([.vertical, .horizontal]) {
-            AsyncImage(url: URL(string: "https://kubatube.cz/JizdniRady/C/heleniska-kauf.png")) { image in
+            AsyncImage(url: URL(string: "https://kubatube.cz/JizdniRady/C/heleninska-kauf.png")) { image in
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
@@ -345,6 +369,25 @@ struct NaHeleninske2_View: View {
     }
 }
 
+// MARK: - Kaufland – směr Na Helenínské (linka C)
+struct Kaufland_View: View {
+    @State private var scale: CGFloat = 1.0
+
+    var body: some View {
+        ScrollView([.vertical, .horizontal]) {
+            AsyncImage(url: URL(string: "https://kubatube.cz/JizdniRady/C/kaufland.png")) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .scaleEffect(scale)
+                    .gesture(MagnificationGesture().onChanged { scale = $0 })
+            } placeholder: { ProgressView() }
+            .padding()
+        }
+        .navigationTitle("Kaufland")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
 
 // MARK: - Linka G – stránka s odkazy
 struct LineG_View: View {
@@ -429,7 +472,7 @@ struct LineG_View: View {
 }
 
 
-// MARK: - Náměstí G
+// MARK: - Náměstí G - Směr Antonínův Důl (linka G)
 struct NamestiG_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -450,7 +493,7 @@ struct NamestiG_View: View {
 }
 
 
-// MARK: - Chlumova G
+// MARK: - Chlumova G - Směr Antonínův Důl (linka G)
 struct ChlumovaG_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -471,7 +514,7 @@ struct ChlumovaG_View: View {
 }
 
 
-// MARK: - Kaufland G
+// MARK: - Kaufland G - Směr Antonínův Důl (linka G)
 struct KauflandG_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -492,7 +535,7 @@ struct KauflandG_View: View {
 }
 
 
-// MARK: - Překladiště G
+// MARK: - Překladiště G - Směr Antonínův Důl (linka G)
 struct PrekladisteG_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -513,7 +556,7 @@ struct PrekladisteG_View: View {
 }
 
 
-// MARK: - Antonínův Důl G
+// MARK: - Antonínův Důl G - Směr Náměstí (Linka G)
 struct ADulG_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -534,7 +577,7 @@ struct ADulG_View: View {
 }
 
 
-// MARK: - Červený Kříž G
+// MARK: - Červený Kříž G - Směr Náměstí (Linka G)
 struct CKrizG_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -571,7 +614,7 @@ struct Line12_View: View {
                     .padding(.bottom, 20)
 
                 NavigationLink { Namesti12_View() } label: {
-                    Text("Zastávka: Náměstí dolní")
+                    Text("Zastávka: Masarykovo náměstí")
                         .foregroundColor(.blue)
                         .padding()
                         .frame(width: 250)
@@ -638,7 +681,7 @@ struct Line12_View: View {
 }
 
 
-// MARK: - Náměstí 12
+// MARK: - Náměstí 12 - Směr Antonínův Důl (linka 12)
 struct Namesti12_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -653,13 +696,13 @@ struct Namesti12_View: View {
             } placeholder: { ProgressView() }
             .padding()
         }
-        .navigationTitle("Masarykovo náměstí dolní")
+        .navigationTitle("Masarykovo náměstí")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 
-// MARK: - Chlumova 12
+// MARK: - Chlumova 12 - Směr Antonínův Důl (linka 12)
 struct Chlumova12_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -680,7 +723,7 @@ struct Chlumova12_View: View {
 }
 
 
-// MARK: - Kaufland 12
+// MARK: - Kaufland 12 - Směr Antonínův Důl (linka 12)
 struct Kaufland12_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -701,7 +744,7 @@ struct Kaufland12_View: View {
 }
 
 
-// MARK: - Překladiště 12
+// MARK: - Překladiště 12 - Směr Antonínův Důl (linka 12)
 struct Prekladiste12_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -722,7 +765,7 @@ struct Prekladiste12_View: View {
 }
 
 
-// MARK: - Antonínův Důl 12
+// MARK: - Antonínův Důl 12 - Směr Náměstí (Linka 12)
 struct ADul12_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -743,7 +786,7 @@ struct ADul12_View: View {
 }
 
 
-// MARK: - Červený Kříž 12
+// MARK: - Červený Kříž 12 - Směr Náměstí (Linka 12)
 struct CKriz12_View: View {
     @State private var scale: CGFloat = 1.0
 
@@ -763,6 +806,122 @@ struct CKriz12_View: View {
     }
 }
 
+// MARK: - Linka H – stránka s odkazy
+struct LineH_View: View {
+    var body: some View {
+        ScrollView {
+            VStack(spacing: 20) {
+                Text("Jízdní řád linky H")
+                    .font(.title)
+                    .padding(.bottom, 20)
+
+                Divider()
+
+                Text("Směr: Bosch")
+                    .font(.title)
+                    .padding(.bottom, 20)
+
+                NavigationLink { ChlumovaH_View() } label: {
+                    Text("Zastávka: Chlumova")
+                        .foregroundColor(.blue)
+                        .padding()
+                        .frame(width: 250)
+                        .background(.ultraThinMaterial)
+                        .cornerRadius(10)
+                }
+
+                NavigationLink { KauflandH_View() } label: {
+                    Text("Zastávka: Kaufland")
+                        .foregroundColor(.blue)
+                        .padding()
+                        .frame(width: 250)
+                        .background(.ultraThinMaterial)
+                        .cornerRadius(10)
+                }
+
+                Divider()
+
+                Text("Směr: Kaufland")
+                    .font(.title)
+                    .padding(.bottom, 20)
+
+                NavigationLink { BoschH_View() } label: {
+                    Text("Zastávka: Bosch")
+                        .foregroundColor(.blue)
+                        .padding()
+                        .frame(width: 250)
+                        .background(.ultraThinMaterial)
+                        .cornerRadius(10)
+                }
+
+            }
+            .padding()
+            .navigationTitle("Linka H")
+            .navigationBarTitleDisplayMode(.inline)
+        }
+    }
+}
+
+// MARK: - Chlumova – směr Kaufland (linka H)
+struct ChlumovaH_View: View {
+    @State private var scale: CGFloat = 1.0
+
+    var body: some View {
+        ScrollView([.vertical, .horizontal]) {
+            AsyncImage(url: URL(string: "https://kubatube.cz/JizdniRady/H/chlumova-H.png")) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .scaleEffect(scale)
+                    .gesture(MagnificationGesture().onChanged { scale = $0 })
+            } placeholder: { ProgressView() }
+            .padding()
+        }
+        .navigationTitle("Chlumova")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+
+// MARK: - Kaufland – směr Bosch (linka H)
+struct KauflandH_View: View {
+    @State private var scale: CGFloat = 1.0
+
+    var body: some View {
+        ScrollView([.vertical, .horizontal]) {
+            AsyncImage(url: URL(string: "https://kubatube.cz/JizdniRady/H/kaufland-H.png")) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .scaleEffect(scale)
+                    .gesture(MagnificationGesture().onChanged { scale = $0 })
+            } placeholder: { ProgressView() }
+            .padding()
+        }
+        .navigationTitle("Kaufland")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+// MARK: - Bosch – směr Bosch (linka H)
+struct BoschH_View: View {
+    @State private var scale: CGFloat = 1.0
+
+    var body: some View {
+        ScrollView([.vertical, .horizontal]) {
+            AsyncImage(url: URL(string: "https://kubatube.cz/JizdniRady/H/bosch-H.png")) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .scaleEffect(scale)
+                    .gesture(MagnificationGesture().onChanged { scale = $0 })
+            } placeholder: { ProgressView() }
+            .padding()
+        }
+        .navigationTitle("Bosch")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
 
 // MARK: - Náhled v preview
 #Preview {
