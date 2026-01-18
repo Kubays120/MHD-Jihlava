@@ -24,12 +24,8 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 ---
 
 ## 🚀 Instalace pomocí IPA instalátoru
-1. Stáhni repozitář (nebo můžeš rovnou stáhnout .ipa v Releases):  
-   ```bash
-   git clone https://github.com/Kubays120/MHD-Jihlava.git
-2. Stáhni Sideloadly (odkaz vlož do nového okna v prohlížeči)
-   ```bash
-   https://sideloadly.io/#download
+1. Stáhni .ipa z Releases
+2. Stáhni Sideloadly - je na stejném místě jako .ipa. Pokud máte macOS, využijte Sideloadly.app.zip (rozbalíte ZIP a Sideloadly vložíte do Aplikací), pokud Windows tak použijte SideloadlySetup64.exe (otevřete instalátor, nainstalujte aplikaci)
 3. Otevři Sideloadly
 4. Nahraj MHD-Jihlava.ipa do Sideloadly (.IPA se nachází v hlavní složce repozitáře)
 5. Zadej svůj Apple ID do kolonky Apple ID
