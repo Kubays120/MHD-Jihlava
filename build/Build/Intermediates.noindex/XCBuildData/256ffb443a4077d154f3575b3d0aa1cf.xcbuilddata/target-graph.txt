@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-Target 'MHD-Jihlava' in project 'MHD-Jihlava' (no dependencies)

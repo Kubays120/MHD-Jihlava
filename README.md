@@ -10,8 +10,7 @@ Jedná se o open-source projekt, jehož cílem je nabídnout obyvatelům i náv�
 - 📅 Zobrazení kompletních **jízdních řádů** pro MHD Jihlava  
 - 🗺️ **Interaktivní mapa** s polohou spojů v reálném čase  
 - 🔍 Vyhledávání spojů a zastávek  
-- 📱 Moderní **iOS aplikace v SwiftUI** (projekt vytvořen v Xcode)  
-- 💡 Otevřený zdrojový kód – možnost přispět, vylepšit či inspirovat se  
+- 📱 Moderní **iOS aplikace v SwiftUI** (projekt vytvořen v Xcode)   
 
 ---
 
@@ -38,16 +37,6 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 7. Zadej heslo ke svému Apple ID
 8. Hotovo!
 
-## 🚀 Instalace pomocí Xcode
-1. Stáhni repozitář:  
-   ```bash
-   git clone https://github.com/Kubays120/MHD-Jihlava.git
-2. Otevři složku projektu v Xcode (.xcodeproj nebo .xcworkspace)
-3. Připoj iPhone k počítači
-4. Vyber své zařízení jako build target
-5. Klikni na ▶️ Run pro nahrání aplikace do telefonu
-6. Hotovo!
-
 ---
 
 ## 🛠️ Použité technologie
@@ -62,6 +51,4 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 
 ## Poznámky
 V aplikaci jsou jízdní řády pouze pro zastávky které potřebuji.
- - Pokud by jste chtěli nějaké jízdní řády přidat, napište mi na **E-Mail: ytb-kuba@seznam.cz**
-
-Je možné že v souborech (ty které se dají stáhnout pomocí **git**) nebudou aktuální položky, tak pokud buddete aplikaci instalovat pomocí .ipa tak ji raději stáhněte v **Releases**
+ - Pokud máte nějaké otázky k aplikaci nebo nějaké návrhy třeba na zlepšení nebo jste našli chybu, napište mi na **E-Mail: ytb-kuba@seznam.cz**
