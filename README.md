@@ -16,7 +16,7 @@ Jedná se o open-source projekt, jehož cílem je nabídnout obyvatelům i náv�
 
 ## ⚠️ Důležité upozornění
 Tato aplikace **není distribuována přes App Store**.  
-Je nutné ji nahrát do telefonu ručně pomocí **Xcode nebo .ipa instalátoru**.  
+Je nutné ji nahrát do telefonu ručně pomocí **.ipa instalátoru**.  
 
 👉 Po nahrání do zařízení aplikace **funguje pouze 7 dní** (limit Apple vývojářských profilů bez placeného developer účtu).  
 Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nainstalovat .ipa pomocí nástoje.
