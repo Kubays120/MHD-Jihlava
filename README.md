@@ -47,82 +47,59 @@ Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sidel
 
 ## 📸 Screenshoty
 
-<p align="center">
-  <figure style="display:inline-block; margin: 70px 160px;">
-    <figcaption
-      align="center"
-      style="margin-bottom: 28px; font-size: 20px;"
-    >
-      <b>Hlavní obrazovka</b>
-    </figcaption>
-
-    <img src="screenshots/home.jpeg" width="280">
-  </figure>
-
-  <figure style="display:inline-block; margin: 70px 160px;">
-    <figcaption
-      align="center"
-      style="margin-bottom: 28px; font-size: 20px;"
-    >
-      <b>Hlavní obrazovka (detail spojů)</b>
-    </figcaption>
-
-    <img src="screenshots/home2.jpeg" width="280">
-  </figure>
-</p>
-
 <br><br>
 
 <p align="center">
-  <figure style="display:inline-block; margin: 70px 160px;">
-    <figcaption
-      align="center"
-      style="margin-bottom: 28px; font-size: 20px;"
-    >
-      <b>Oblíbené</b>
-    </figcaption>
+<figure style="display:inline-block; margin: 80px 180px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 20px;">
+<b>Hlavní obrazovka</b>
+</figcaption>
+<img src="screenshots/home.jpeg" width="280">
+</figure>
 
-    <img src="screenshots/favorites.jpeg" width="280">
-  </figure>
-
-  <figure style="display:inline-block; margin: 70px 160px;">
-    <figcaption
-      align="center"
-      style="margin-bottom: 28px; font-size: 20px;"
-    >
-      <b>Vyhledávání</b>
-    </figcaption>
-
-    <img src="screenshots/search.jpeg" width="280">
-  </figure>
+<figure style="display:inline-block; margin: 80px 180px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 20px;">
+<b>Hlavní obrazovka (detail spojů)</b>
+</figcaption>
+<img src="screenshots/home2.jpeg" width="280">
+</figure>
 </p>
 
-<br><br>
+<br><br><br>
 
 <p align="center">
-  <figure style="display:inline-block; margin: 70px 160px;">
-    <figcaption
-      align="center"
-      style="margin-bottom: 28px; font-size: 20px;"
-    >
-      <b>Pohled na jízdní řád</b>
-    </figcaption>
+<figure style="display:inline-block; margin: 80px 180px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 20px;">
+<b>Oblíbené</b>
+</figcaption>
+<img src="screenshots/favorites.jpeg" width="280">
+</figure>
 
-    <img src="screenshots/jr.jpeg" width="280">
-  </figure>
-
-  <figure style="display:inline-block; margin: 70px 160px;">
-    <figcaption
-      align="center"
-      style="margin-bottom: 28px; font-size: 20px;"
-    >
-      <b>Mapa spojů</b>
-    </figcaption>
-
-    <img src="screenshots/ms.jpeg" width="280">
-  </figure>
+<figure style="display:inline-block; margin: 80px 180px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 20px;">
+<b>Vyhledávání</b>
+</figcaption>
+<img src="screenshots/search.jpeg" width="280">
+</figure>
 </p>
 
+<br><br><br>
+
+<p align="center">
+<figure style="display:inline-block; margin: 80px 180px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 20px;">
+<b>Pohled na jízdní řád</b>
+</figcaption>
+<img src="screenshots/jr.jpeg" width="280">
+</figure>
+
+<figure style="display:inline-block; margin: 80px 180px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 20px;">
+<b>Mapa spojů</b>
+</figcaption>
+<img src="screenshots/ms.jpeg" width="280">
+</figure>
+</p>
 
 ---
 
