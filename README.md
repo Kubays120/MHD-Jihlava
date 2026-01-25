@@ -48,17 +48,23 @@ Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sidel
 ## 📸 Screenshoty
 
 <p align="center">
+ Hlavní obrazovka:
   <img src="screenshots/home.jpeg" width="45%">
+ Hlavní obrazovka:
   <img src="screenshots/home2.jpeg" width="45%">
 </p>
 
 <p align="center">
+ Oblíbené:
   <img src="screenshots/favorites.jpeg" width="45%">
+ Vyhledávání:
   <img src="screenshots/search.jpeg" width="45%">
 </p>
 
 <p align="center">
+ Pohled na jízdní řád:
   <img src="screenshots/jr.jpeg" width="45%">
+ Mapa spojů:
   <img src="screenshots/ms.jpeg" width="45%">
 </p>
 
