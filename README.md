@@ -48,37 +48,49 @@ Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sidel
 ## 📸 Screenshoty
 
 <p align="center">
-  <figure style="display:inline-block; margin: 10px;">
-    <figcaption align="center"><b>Hlavní obrazovka</b></figcaption>
+  <figure style="display:inline-block; margin: 20px 60px;">
+    <figcaption align="center" style="margin-bottom: 6px;">
+      <b>Hlavní obrazovka</b>
+    </figcaption>
     <img src="screenshots/home.jpeg" width="280">
   </figure>
 
-  <figure style="display:inline-block; margin: 10px;">
-    <figcaption align="center"><b>Hlavní obrazovka (detail)</b></figcaption>
+  <figure style="display:inline-block; margin: 20px 60px;">
+    <figcaption align="center" style="margin-bottom: 6px;">
+      <b>Hlavní obrazovka (detail spojů)</b>
+    </figcaption>
     <img src="screenshots/home2.jpeg" width="280">
   </figure>
 </p>
 
 <p align="center">
-  <figure style="display:inline-block; margin: 10px;">
-    <figcaption align="center"><b>Oblíbené</b></figcaption>
+  <figure style="display:inline-block; margin: 20px 60px;">
+    <figcaption align="center" style="margin-bottom: 6px;">
+      <b>Oblíbené</b>
+    </figcaption>
     <img src="screenshots/favorites.jpeg" width="280">
   </figure>
 
-  <figure style="display:inline-block; margin: 10px;">
-    <figcaption align="center"><b>Vyhledávání</b></figcaption>
+  <figure style="display:inline-block; margin: 20px 60px;">
+    <figcaption align="center" style="margin-bottom: 6px;">
+      <b>Vyhledávání</b>
+    </figcaption>
     <img src="screenshots/search.jpeg" width="280">
   </figure>
 </p>
 
 <p align="center">
-  <figure style="display:inline-block; margin: 10px;">
-    <figcaption align="center"><b>Pohled na jízdní řád</b></figcaption>
+  <figure style="display:inline-block; margin: 20px 60px;">
+    <figcaption align="center" style="margin-bottom: 6px;">
+      <b>Pohled na jízdní řád</b>
+    </figcaption>
     <img src="screenshots/jr.jpeg" width="280">
   </figure>
 
-  <figure style="display:inline-block; margin: 10px;">
-    <figcaption align="center"><b>Mapa spojů</b></figcaption>
+  <figure style="display:inline-block; margin: 20px 60px;">
+    <figcaption align="center" style="margin-bottom: 6px;">
+      <b>Mapa spojů</b>
+    </figcaption>
     <img src="screenshots/ms.jpeg" width="280">
   </figure>
 </p>
