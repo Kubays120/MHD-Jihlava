@@ -48,26 +48,40 @@ Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sidel
 ## 📸 Screenshoty
 
 <p align="center">
- Hlavní obrazovka:
-  <img src="screenshots/home.jpeg" width="45%">
- Hlavní obrazovka:
-  <img src="screenshots/home2.jpeg" width="45%">
+  <figure style="display:inline-block; margin: 10px;">
+    <figcaption align="center"><b>Hlavní obrazovka</b></figcaption>
+    <img src="screenshots/home.jpeg" width="280">
+  </figure>
+
+  <figure style="display:inline-block; margin: 10px;">
+    <figcaption align="center"><b>Hlavní obrazovka (detail)</b></figcaption>
+    <img src="screenshots/home2.jpeg" width="280">
+  </figure>
 </p>
 
 <p align="center">
- Oblíbené:
-  <img src="screenshots/favorites.jpeg" width="45%">
- Vyhledávání:
-  <img src="screenshots/search.jpeg" width="45%">
+  <figure style="display:inline-block; margin: 10px;">
+    <figcaption align="center"><b>Oblíbené</b></figcaption>
+    <img src="screenshots/favorites.jpeg" width="280">
+  </figure>
+
+  <figure style="display:inline-block; margin: 10px;">
+    <figcaption align="center"><b>Vyhledávání</b></figcaption>
+    <img src="screenshots/search.jpeg" width="280">
+  </figure>
 </p>
 
 <p align="center">
- Pohled na jízdní řád:
-  <img src="screenshots/jr.jpeg" width="45%">
- Mapa spojů:
-  <img src="screenshots/ms.jpeg" width="45%">
-</p>
+  <figure style="display:inline-block; margin: 10px;">
+    <figcaption align="center"><b>Pohled na jízdní řád</b></figcaption>
+    <img src="screenshots/jr.jpeg" width="280">
+  </figure>
 
+  <figure style="display:inline-block; margin: 10px;">
+    <figcaption align="center"><b>Mapa spojů</b></figcaption>
+    <img src="screenshots/ms.jpeg" width="280">
+  </figure>
+</p>
 
 ---
 
