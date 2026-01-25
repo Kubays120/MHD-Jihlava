@@ -19,7 +19,7 @@ Tato aplikace **není distribuována přes App Store**.
 Je nutné ji nahrát do telefonu ručně pomocí **.ipa instalátoru**.  
 
 👉 Po nahrání do zařízení aplikace **funguje pouze 7 dní** (limit Apple vývojářských profilů bez placeného developer účtu).  
-Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nainstalovat .ipa pomocí nástoje.
+Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sideloadly.
 
 ---
 
@@ -45,6 +45,17 @@ Poté je nutné ji znovu znovu přebuildovat a nahrát do iPhonu nebo znovu nain
 
 ---
 
+## 📸 Screenshoty
+
+![Domovská obrazovka](screenshots/home.jpeg)
+![Domovská obrazovka](screenshots/home2.jpeg)
+![Oblíbené zastávky](screenshots/favorites.jpeg)
+![Vyhledávání](screenshots/search.jpeg)
+![Pohled na jízdní řád](screenshots/jr.jpeg)
+![Mapa spojů](screenshots/ms.jpeg)
+
+---
+
 ## Poznámky
-V aplikaci jsou jízdní řády pouze pro zastávky které potřebuji.
+Je možné že nějaké spoje nebo zastávky chybí, ale v tuto chvíli se nejspíše pracuje na jejich přidání. Snažím se tuto aplikaci udržovat co nejaktuálnější.
  - Pokud máte nějaké otázky k aplikaci nebo nějaké návrhy třeba na zlepšení nebo jste našli chybu, napište mi na **E-Mail: ytb-kuba@seznam.cz**
