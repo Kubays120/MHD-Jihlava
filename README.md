@@ -47,22 +47,24 @@ Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sidel
 
 ## 📸 Screenshoty
 
-<br><br>
+<br>
 
 <p align="center">
 <figure style="display:inline-block; margin: 80px 180px;">
-<figcaption align="center" style="margin-bottom: 32px; font-size: 25px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 28px;">
 <b>Hlavní obrazovka</b>
 </figcaption>
- <br>
+ <br><br>
 <img src="screenshots/home.jpeg" width="280">
 </figure>
 
+<br><br><br>
+
 <figure style="display:inline-block; margin: 80px 180px;">
-<figcaption align="center" style="margin-bottom: 32px; font-size: 25px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 28px;">
 <b>Hlavní obrazovka (detail spojů)</b>
 </figcaption>
- <br>
+ <br><br>
 <img src="screenshots/home2.jpeg" width="280">
 </figure>
 </p>
@@ -71,18 +73,20 @@ Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sidel
 
 <p align="center">
 <figure style="display:inline-block; margin: 80px 180px;">
-<figcaption align="center" style="margin-bottom: 32px; font-size: 25px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 28px;">
 <b>Oblíbené</b>
 </figcaption>
- <br>
+ <br><br>
 <img src="screenshots/favorites.jpeg" width="280">
 </figure>
 
+<br><br><br>
+
 <figure style="display:inline-block; margin: 80px 180px;">
-<figcaption align="center" style="margin-bottom: 32px; font-size: 25px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 28px;">
 <b>Vyhledávání</b>
 </figcaption>
- <br>
+ <br><br>
 <img src="screenshots/search.jpeg" width="280">
 </figure>
 </p>
@@ -91,18 +95,20 @@ Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sidel
 
 <p align="center">
 <figure style="display:inline-block; margin: 80px 180px;">
-<figcaption align="center" style="margin-bottom: 32px; font-size: 25px;">
+<figcaption align="center" style="margin-bottom: 32px; font-size: 28px;">
 <b>Pohled na jízdní řád</b>
 </figcaption>
- <br>
+ <br><br>
 <img src="screenshots/jr.jpeg" width="280">
 </figure>
+
+<br><br><br>
 
 <figure style="display:inline-block; margin: 80px 180px;">
 <figcaption align="center" style="margin-bottom: 32px; font-size: 25px;">
 <b>Mapa spojů</b>
 </figcaption>
- <br>
+ <br><br>
 <img src="screenshots/ms.jpeg" width="280">
 </figure>
 </p>
