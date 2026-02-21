@@ -24,15 +24,38 @@ Poté je nutné ji znovu nainstalovat pomocí .ipa instalačního programu Sidel
 ---
 
 ## 🚀 Instalace pomocí IPA instalátoru
-1. Stáhni .ipa z Releases
-2. Stáhni Sideloadly - je na stejném místě jako .ipa. Pokud máte macOS, využijte SideloadlySetup.dmg (oteveřte .dmg a Sideloadly vložíte do Aplikací), pokud Windows tak použijte SideloadlySetup64.exe (otevřete instalátor, nainstalujte aplikaci)
-3. Otevři Sideloadly
-4. Nahraj MHD-Jihlava.ipa do Sideloadly (.IPA se nachází v hlavní složce repozitáře)
-5. Zadej svůj Apple ID do kolonky Apple ID
-6. Klikni na Start
-7. Zadej heslo ke svému Apple ID
-8. Hotovo!
 
+1. Stáhni `.ipa` z Releases
+2. Stáhni Sideloadly – je na stejném místě jako `.ipa`.  
+   - Pokud máš macOS, použij **SideloadlySetup.dmg** (otevři `.dmg` a přetáhni Sideloadly do Aplikací)  
+   - Pokud máš Windows, použij **SideloadlySetup64.exe** (spusť instalátor a nainstaluj aplikaci)
+3. Otevři Sideloadly
+4. Nahraj `MHD-Jihlava.ipa` do Sideloadly (`.ipa` se nachází v hlavní složce repozitáře)
+5. Zadej svůj Apple ID do kolonky **Apple ID**
+6. Klikni na **Start**
+7. Zadej heslo ke svému Apple ID
+8. Hotovo – aplikace je nainstalována
+
+---
+
+## ▶ Potřebné kroky ke spuštění aplikace
+
+1. Na telefonu otevři **Nastavení (Settings)** → **Obecné (General)** → **VPN a správa zařízení (VPN & Device Management)**
+2. Vyber profil se svým Apple ID (bude zde uveden tvůj e-mail)
+3. Klepni na **Důvěřovat (Trust)** a potvrď
+
+---
+
+## 🔒 Aktivace Developer Mode (vyžadováno pro iOS 16+)
+
+1. Otevři **Nastavení (Settings)**
+2. Přejdi do **Soukromí a zabezpečení (Privacy & Security)**
+3. Sjeď dolů a otevři **Developer Mode**
+4. Zapni **Developer Mode**
+5. Restartuj zařízení
+6. Po restartu potvrď zapnutí Developer Mode
+
+Bez zapnutého Developer Mode a důvěřování e-mailu aplikace nepůjde spustit.
 ---
 
 ## 🛠️ Použité technologie
