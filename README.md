@@ -78,7 +78,7 @@ Bez zapnutého Developer Mode a důvěřování e-mailu aplikace nepůjde spusti
 <b>Hlavní obrazovka</b>
 </figcaption>
  <br><br>
-<img src="screenshots/home.jpeg" width="280">
+<img src="screenshots/home.png" width="280">
 </figure>
 
 <br><br><br>
